@@ -30,8 +30,8 @@
     /> -->
   </head>
   <body class="page__body">
-    <header class="header page__header">
-      <div class="container">
+    <header class="header">
+      <div class="header__container container">
         <div class="header__content">
           <div class="header__top-bar top-bar">
             <div class="top-bar__icons">
@@ -44,6 +44,7 @@
                 class="icon icon--menu"
               ></a>
             </div>
+
             <nav class="header__nav nav">
               <ul class="nav__list">
                 <li class="nav__item">
@@ -80,6 +81,7 @@
                 </li>
               </ul>
             </nav>
+
             <a
               href="#form"
               class="top-bar__hire-us"
@@ -87,6 +89,7 @@
               Hire us
             </a>
           </div>
+
           <h1 class="header__title">Strategic Agency</h1>
           <p class="header__description">
             We believe in the power of bold ideas that can solve business
@@ -100,7 +103,8 @@
           </a>
         </div>
       </div>
-      <div class="swiper mySwiper">
+
+      <div class="swiper swiper--main">
         <div class="swiper__wrapper swiper-wrapper">
           <div class="swiper__slide swiper-slide">
             <img
@@ -109,21 +113,16 @@
               class="swiper__image"
             />
           </div>
-          <!--           <div class="swiper__slide swiper-slide">
-            <img
-              src="./images/slider/slider-photo-2.png"
-              alt="Thw working place"
-              class="swiper__image"
-            />
+          <!--
+          <div class="swiper__slide swiper-slide">
+            <img src="./images/slider/slider-photo-2.png" alt="The working place" class="swiper__image" />
           </div>
           <div class="swiper__slide swiper-slide">
-            <img
-              src="./images/slider/slider-photo-3.png"
-              alt="The working place"
-              class="swiper__image"
-            />
-          </div> -->
+            <img src="./images/slider/slider-photo-3.png" alt="The working place" class="swiper__image" />
+          </div>
+          -->
         </div>
+
         <div class="swiper__navigation">
           <div
             class="swiper__button swiper__button--prev swiper-button-prev"
@@ -132,6 +131,7 @@
             class="swiper__button swiper__button--next swiper-button-next"
           ></div>
         </div>
+
         <div class="swiper__text">
           <p class="swiper__title">INtro</p>
           <p class="swiper__description">
@@ -141,18 +141,6 @@
           </p>
         </div>
       </div>
-      <!--       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-      <script>
-        const swiper = new Swiper('.mySwiper', {
-          slidesPerView: 1,
-          loop: true,
-          spaceBetween: 30,
-          navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-          },
-        });
-      </script> -->
     </header>
     <aside
       class="menu page__menu"

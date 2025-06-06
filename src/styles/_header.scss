@@ -1,4 +1,5 @@
 .header {
+  position: relative;
   background-color: $footer-bg;
   color: $main-white;
   border-bottom-left-radius: 30px;
@@ -87,14 +88,6 @@
 
     @include on-small-desktop {
       grid-column: 1/5;
-    }
-  }
-
-  &__nav {
-    display: none;
-
-    @include on-small-desktop {
-      display: flex;
     }
   }
 }
